@@ -1,0 +1,13 @@
+{
+  "name": "docker-node-alpine",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start" : "node .",
+    "dev" : "docker build -t program . && docker run --rm -it program"
+  },
+  "dependencies": {
+    "wrtc": "^0.4.2"
+  }
+}
