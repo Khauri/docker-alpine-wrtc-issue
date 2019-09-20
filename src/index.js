@@ -1,6 +1,5 @@
 const wrtc = require('wrtc')
 
-console.log('Program Started')
-// console.log(wrtc.nonstandard)
+console.log('Log 1')
 new wrtc.nonstandard.RTCVideoSource()
-console.log('== This statement will never be reached ==')
+console.log('Log 2') // never reached with release build
